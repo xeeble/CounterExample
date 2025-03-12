@@ -1,0 +1,59 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+}
+
+#value{
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.container{
+    padding-top: 10em;
+}
+
+.button-container{
+    padding-top: 1.5em;
+}
+
+.btn{
+    border: 2px solid;
+    border-radius: 12px;
+    background-color: white;
+    height: 2em;
+    width: 15%;
+    font-weight: bold;
+    transition: background-color .5s;
+    
+}
+
+.btn.Increase:hover{
+    background-color: lightgreen;
+}
+
+.btn.Increase:active {
+    transform: translateY(-4px);
+}
+
+.btn.Decrease:hover{
+    background-color: lightcoral;
+}
+
+.btn.Reset:hover{
+    background-color: gray;
+}
+
+.btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn:active {
+    transform: translateY(4px);
+}
+
+
+
